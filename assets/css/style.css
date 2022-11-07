@@ -38,6 +38,12 @@
     margin: 0 auto;
 }
 
+.contact-row {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
 /*
 .contact-container{
     margin: 20px;
