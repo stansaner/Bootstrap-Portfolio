@@ -1,6 +1,6 @@
 /* RESETS */
 
-/* :root {
+:root {
     --base-color: #F8F9FA;
     --header-base-color: #212529;
     --logo1-color: #BBD0FF;
@@ -9,7 +9,7 @@
     --header-background-color: #495057;
     --footer-background-color: #6C757D;
     --placeholder-color: #ADE8F4;
-} */
+}
 
 /* ANIMATIONS */
 
@@ -18,3 +18,28 @@
 
 
 /* CUSTOM STYLES */
+
+.avatar-image {
+    max-width: 200px; 
+    height: auto;
+}
+
+.sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+
+.cardContainer {
+    margin: 20px;
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+/*
+.contact-container{
+    margin: 20px;
+}
+*/

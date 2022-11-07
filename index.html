@@ -28,6 +28,9 @@
           <a class="nav-link" href="#Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#Contact">Contact</a>
         </li>
         <li class="nav-item">
@@ -54,78 +57,88 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>  -->
     </div>
-  </nav>
+  </nav> 
 
   <main>
         <!-- Hero section -->
         <section id="About" class="jumbotron">
-          <h1 class="display-4">Hello, world!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <h1 class="display-4">Hello, I am Stan.</h1>
+          <p class="lead">I am an IT professional with over two decades experience in UNIX and Linux operating systems pivoting to Web development.</p>
+          <img src="./assets/images/avatar.png" class="avatar-image img-fluid" alt="Cartoonized photo">
+          <!--
           <hr class="my-4">
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          -->
+          <a class="btn btn-primary btn-lg" href="mailto:stan.saner@hotmail.co.uk" target="_blank" role="button">Get in touch!</a>
         </section>
 
 
       <!-- Work / Portfolio section -->
-        <section id="Portfolio" class="container">
+        <section id="Portfolio" class="container mt-5">
           <div class="row">
             <div class="col-2">
-              Portfolio
+              <h2>Portfolio</h2>             
             </div>
             <div class="col-5">
-              <div class="card" style="width: 18rem;">
-                <img src="./assets/images/Prework-Study-Guide.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bootcamp Pre-work Assignment</h5>
-                  <p class="card-text">Web development bootcamp assignment before the course start.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="cardContainer m-1 col-lg-10 col-md-11 col-sm-12">
+                <div class="card">
+                  <img src="./assets/images/Prework-Study-Guide.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootcamp Pre-work Assignment</h5>
+                    <p class="card-text">Web development bootcamp assignment before the course start.</p>
+                    <a href="https://github.com/stansaner/prework-study-guide" class="btn btn-primary">Visit the project</a>
+                  </div>
                 </div>
-              </div>
+              </div>  
             </div>
             <div class="col-5">
-              <div class="card" style="width: 18rem;">
-                <img src="./assets/images/Horiseon-homepage.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Horiseon Marketing Agency</h5>
-                  <p class="card-text">Web development bootcamp project to refactor an existing code for accessibility.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="cardContainer m-1 col-lg-10 col-md-11 col-sm-12">
+                <div class="card">
+                  <img src="./assets/images/Horiseon-homepage.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Horiseon Marketing Agency</h5>
+                    <p class="card-text">Web development bootcamp project to refactor an existing code for accessibility.</p>
+                    <a href="https://github.com/stansaner/bootcamp_challenge_01" class="btn btn-primary">Visit the project</a>
+                  </div>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
           <div class="row">
             <div class="col-2">
-              1 of 3
             </div>
             <div class="col-5">
-              <div class="card" style="width: 18rem;">
-                <img src="./assets/images/coffee2-min.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Future Project 3</h5>
-                  <p class="card-text">Placeholder for the future project or assignment.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="cardContainer m-1 col-lg-10 col-md-11 col-sm-12">
+                <div class="card">
+                  <img src="./assets/images/coffee2-min.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Future Project 3</h5>
+                    <p class="card-text">Placeholder for the future project or assignment.</p>
+                    <a href="#" class="btn btn-primary">Visit the project</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-5">
-              <div class="card" style="width: 18rem;">
-                <img src="./assets/images/coffee3-min.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Future Project 4</h5>
-                  <p class="card-text">Placeholder for the future project or assignment.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="cardContainer m-1 col-lg-10 col-md-11 col-sm-12">
+                <div class="card">
+                  <img src="./assets/images/coffee3-min.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Future Project 4</h5>
+                    <p class="card-text">Placeholder for the future project or assignment.</p>
+                    <a href="#" class="btn btn-primary">Visit the project</a>
+                  </div>
                 </div>
-              </div>
-            </div>     
+              </div>     
+            </div>
           </div>
         </section>
 
     <!-- Skills section -->
-    <section id="Skills" class="container">
+    <section id="Skills" class="container mt-5">
       <div class="row">
         <div class="col-2">
-          Skills
+          <h2>Skills</h2>
         </div>
         <div class="col-10">
           <ul class="list-group">
@@ -138,25 +151,25 @@
         </div>
     </section>
 
-    <!-- About me + Contact section -->
-    <section id="Contact" class="container">
+    <!-- Contact section -->
+    <section id="Contact" class="container mt-5">
       <div class="row">
         <div class="col-2">
-          Contact
+          <h2>Contact</h2>
         </div>
         <div class="col-10">
-          <p>
-            An IT professional with over two decades experience in UNIX and Linux operating system pivoting to Web development
-          </p>
           <ul>
-            <a href="mailto:stan.saner@hotmail.co.uk" target="_blank">stan.saner@hotmail.co.uk</a>
+            <a href="mailto:stan.saner@hotmail.co.uk" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href="https://github.com/stansaner" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/ssaner/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </ul>
         </div>
     </section>
-
   </main>
+
+  <footer class="row bg-dark">
+    <p style="color:#BBD0FF; align-text: center;">&copy;2022  Stanislav Saner</p>
+  </footer>
     
 </body>
 </html>
