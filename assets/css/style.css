@@ -24,11 +24,6 @@
     height: auto;
 }
 
-.sideAccent {
-    background: #007bff;
-    width: 15px;
-  }
-
 .cardContainer {
     margin: 20px;
     text-align: center;
@@ -38,14 +33,3 @@
     margin: 0 auto;
 }
 
-.contact-row {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-evenly;
-}
-
-/*
-.contact-container{
-    margin: 20px;
-}
-*/
